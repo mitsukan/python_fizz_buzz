@@ -7,5 +7,6 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz.run(3), "Fizz!")
         self.assertEqual(fizzbuzz.run(6), "Fizz!")
 
-    def test_5_eq_buzz(self):
+    def test_buzz_divisible_by_5(self):
         self.assertEqual(fizzbuzz.run(5), "Buzz!")
+        self.assertEqual(fizzbuzz.run(10), "Buzz!")
