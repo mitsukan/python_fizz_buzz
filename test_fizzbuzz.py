@@ -13,3 +13,8 @@ class TestFizzBuzz(unittest.TestCase):
 
     def test_fizzbuzz_divisible_by_15(self):
         self.assertEqual(fizzbuzz.run(15), "FizzBuzz!")
+
+    def test_return_self_if_not_divisible_by_anything(self):
+        self.assertEqual(fizzbuzz.run(2), 2)
+        self.assertEqual(fizzbuzz.run(4), 4)
+        self.assertEqual(fizzbuzz.run(8), 8)
