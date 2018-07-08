@@ -19,3 +19,7 @@ ctrl + x will close this prompt. From here on out, `python` will now use the new
 I spent around 20 minutes browsing through the official documentation for unittest. Due to the limited time I have, I decided to go onto youtube to see how to use unittest.
 
 Using the files `test_calc.py` and `calc.py`, I followed [this video](https://www.youtube.com/watch?v=6tNS--WetLI&t=379s) to get a basic understanding of how it works. I've annotated over the `test_calc.py` file, taking notes that I can refer back to without re-watching the video.
+
+### TTDing FizzBuzz
+
+Wooooo!
