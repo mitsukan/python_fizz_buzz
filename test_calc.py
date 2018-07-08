@@ -18,6 +18,8 @@ class TestCalc(unittest.TestCase): # test class inherits from unittest.TestCase
     def test_divide(self):
         self.assertEqual(calc.divide(15,3), 5)
         self.assertRaises(ValueError, calc.divide, 10, 0) # first arg is the type of error to raise, 2nd is the function, 3rd and 4th are arguments separately.
+        with self.assertRaises(ValueError): # Context manager will handle and check the exception "properly"
+            calc.divide(10,0)
 
 # To run the test, we need to enter in the terminal:
 # $ python -m unittest test_calc.py
