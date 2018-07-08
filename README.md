@@ -22,4 +22,4 @@ Using the files `test_calc.py` and `calc.py`, I followed [this video](https://ww
 
 ### TTDing FizzBuzz
 
-Wooooo!
+Wooooo! Nice and easy!
