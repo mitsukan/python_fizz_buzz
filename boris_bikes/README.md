@@ -1,6 +1,6 @@
 ## User Stories
 
-![alt text](https://github.com/mitsukan/python_learning/blob/master/User%20Stories%20for%20Boris%20Bikes.png "Pic")
+![alt text](https://github.com/mitsukan/python_learning/blob/master/boris_bikes/User%20Stories%20for%20Boris%20Bikes.png)
 
 ## Unblocking
 
