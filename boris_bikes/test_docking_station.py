@@ -1,13 +1,15 @@
 import unittest
-import docking_station
+from docking_station import DockingStation
 
 class TestDockingStation(unittest.TestCase):
 
     def test_docking_station(self):
-        self.assertEqual(docking_station.storage(), "Hello World")
+        d_station = DockingStation()
+        self.assertEqual(d_station.helloworld(), "Hello World")
 
-
-
+    def test_storage(self):
+        d_station = DockingStation()
+        self.assertEqual(d_station.storage, [])
 
 if __name__ == '__main__':
     unittest.main()
