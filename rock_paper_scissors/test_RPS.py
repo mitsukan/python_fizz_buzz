@@ -1,5 +1,6 @@
 import unittest
 from RPS import Roshambo
+from unittest.mock import Mock
 
 class TestRoshambo(unittest.TestCase):
 
@@ -13,11 +14,12 @@ class TestRoshambo(unittest.TestCase):
         new_game = Roshambo("rock")
         self.assertEqual(new_game.outcomes, ["rock", "paper", "scissors"])
 
-    # def test_randomise(self):
-    #     """Game has a computer that randomises between the choices"""
-    #     new_game = Roshambo("rock")
-    #     # randomise mock?
-    #     self.assertEqual(new_game.randomise(), "rock")
+    def test_randomise(self):
+        """Game has a computer that randomises between the choices"""
+        new_game = Roshambo("rock")
+        randomise_mock = Mock()
+        randomise_mock.randomise.return_value = 2
+        self.assertEqual(new_game.randomise(), 2)
 
     # def test_play(self):
     #     """Be able to play the game, comparing the existing choices saved in the class object"""
