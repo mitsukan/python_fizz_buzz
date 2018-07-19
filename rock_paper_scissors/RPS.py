@@ -1,3 +1,5 @@
+import random
+
 class Roshambo(object):
 
     def __init__(self, choice):
@@ -5,3 +7,6 @@ class Roshambo(object):
         self.outcomes = ["rock", "paper", "scissors"]
         self.choice = choice
         # apart from [0] > [2], the larger the number will win.
+
+    def randomise(self):
+        return random.randint(0,2)
