@@ -1,1 +1,3 @@
-{}
+{
+  "test_fizzbuzz.py::test_return_x_if_divisible_by_nothing": true
+}
