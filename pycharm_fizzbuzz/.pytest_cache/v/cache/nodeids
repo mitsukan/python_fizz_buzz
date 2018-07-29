@@ -1,4 +1,4 @@
 [
   "test_fizzbuzz.py::test_fizz_divisible_by_3",
-  "test_fizzbuzz.py::test_fizz_divisible_by_6"
+  "test_fizzbuzz.py::test_buzz_divisible_by_5"
 ]
