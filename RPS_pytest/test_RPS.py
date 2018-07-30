@@ -13,6 +13,7 @@ class TestRPS(unittest.TestCase):
 
     def test_paper_beats_rock(self):
         self.assertEqual(RPS.roshambo("paper", "rock"), "Player 1 wins!")
+        self.assertEqual(RPS.roshambo("rock", "paper"), "Player 2 wins!")
 
 if __name__ == '__main__':
     unittest.main()
