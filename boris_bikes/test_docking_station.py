@@ -9,6 +9,7 @@ class TestDockingStation(unittest.TestCase):
         d_station = DockingStation()
         self.assertEqual(d_station.storage, [])
 
+
     def test_be_able_to_take_a_bike(self):
         d_station = DockingStation()
         with mock.patch('bike.Bike') as mocked_bike:

@@ -1,3 +1,4 @@
+from bike import Bike
 
 class DockingStation(object):
 
