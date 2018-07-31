@@ -10,5 +10,10 @@ class DockingStation(object):
         return "Bike docked."
 
     def release(self, bike):
-        self.storage.remove(bike)
+        if self.storage == []:
+            raise Exception("No bike to release.")
+        elif bike.is_working == False:
+            raise Exception('Bike is broken.')
+        else:
+            self.storage.remove(bike)
         return "Bike released."
