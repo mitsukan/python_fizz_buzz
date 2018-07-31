@@ -18,3 +18,9 @@ def outer_function():
 construction = decorator(outer_function)
 
 construction()
+
+@decorator
+def new_function():
+    print("this is a new function!")
+
+new_function()
