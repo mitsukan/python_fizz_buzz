@@ -6,3 +6,6 @@ class Menu(object):
 
     def add(self, item, price):
         self.items[item] = price
+
+    def remove(self, item):
+        del self.items[item]

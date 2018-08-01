@@ -14,5 +14,11 @@ class TestMenu(unittest.TestCase):
         self.assertEqual(m.items, {"chips": 1.7})
 
 
+    def test_can_remove_item_from_the_menu(self):
+        m = menu.Menu()
+        m.add("chips", 1.7)
+        m.remove("chips")
+        self.assertEqual(m.items, {})
+
 if __name__ == '__main__':
     unittest.main()
