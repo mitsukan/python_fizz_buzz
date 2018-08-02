@@ -25,6 +25,5 @@ class TestPOS(unittest.TestCase):
             self.assertEqual(pos.total(), 3.0)
 
 
-
 if __name__ == '__main__':
     unittest.main()
