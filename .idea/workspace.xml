@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1099a057-9113-4532-be0e-5bca2e5e970a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/takeaway_py/test_POS.py" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway_py/test_POS.py" afterDir="false" />
-    </list>
+    <list default="true" id="1099a057-9113-4532-be0e-5bca2e5e970a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="-1411919919">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -70,8 +68,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/takeaway_py/test_POS.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                <state relative-caret-position="395">
+                  <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                     <marker date="1533205964223" expanded="true" signature="88:89" ph="..." />
@@ -403,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/takeaway_py/test_POS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="395">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1533205964223" expanded="true" signature="88:89" ph="..." />
